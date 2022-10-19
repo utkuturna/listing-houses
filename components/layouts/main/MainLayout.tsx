@@ -1,4 +1,5 @@
 import { FunctionComponent, ReactNode } from 'react';
+import Header from "../../navigation/header/Header";
 
 export interface IMainLayout {
   children: ReactNode
@@ -7,8 +8,11 @@ export interface IMainLayout {
 const MainLayout: FunctionComponent<IMainLayout> = ({children}) => {
   return (
     <div className="flex flex-col min-h-screen">
+      <Header />
       <main>
-        {children}
+        <div className="container mx-auto">
+          {children}
+        </div>
       </main>
     </div>
   )

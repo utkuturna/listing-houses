@@ -13,6 +13,11 @@ module.exports = {
       lg: '1200px',
       xl: '1536px',
     },
+    extend: {
+      colors: {
+        'funda-yellow': '#f7a100'
+      }
+    }
   },
   plugins: [],
 };
