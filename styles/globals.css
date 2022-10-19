@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.page-title {
+    @apply font-semibold text-2xl mb-4
+}
