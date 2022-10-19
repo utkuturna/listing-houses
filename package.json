@@ -1,7 +1,15 @@
 {
   "name": "listing-houses",
+  "author": "Utku Turna",
+  "description": "An example project with NextJS",
   "version": "0.1.0",
   "private": true,
+  "license" : "MIT",
+  "homepage": "https://github.com/utkuturna/listing-houses",
+  "engines": {
+    "node": ">=16.x.x",
+    "npm": ">=7.x.x"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
