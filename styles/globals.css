@@ -3,5 +3,20 @@
 @tailwind utilities;
 
 .page-title {
-    @apply font-semibold text-2xl mb-4
+  @apply font-semibold text-2xl mb-4;
+}
+
+.btn {
+  @apply p-4;
+}
+
+.btn--primary {
+  @apply bg-primary text-white;
+}
+
+.btn--secondary {
+  @apply bg-secondary text-white;
+}
+.btn--outline {
+  @apply bg-white text-secondary border border-secondary;
 }

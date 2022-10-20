@@ -15,9 +15,10 @@ module.exports = {
     },
     extend: {
       colors: {
-        'funda-yellow': '#f7a100'
-      }
-    }
+        primary: '#f7a100',
+        secondary: '#006199',
+      },
+    },
   },
   plugins: [],
 };
