@@ -15,14 +15,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <meta
-            name="description"
-            content="This is an example project to list houses"
-          />
-          <meta
-            name="viewport"
-            content="initial-scale=1.0, width=device-width"
-          />
+          {/* @todo add default og tags here */}
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <body>

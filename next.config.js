@@ -10,6 +10,9 @@ const nextConfig = {
     });
     return config;
   },
+  images: {
+    domains: ['cloud.funda.nl'],
+  },
 };
 
 module.exports = nextConfig;
