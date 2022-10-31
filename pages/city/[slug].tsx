@@ -10,11 +10,12 @@ const City: NextPage = () => {
   const router = useRouter();
   const slug = typeof router.query.slug === 'string' ? router.query.slug : '';
   const { data, isLoading } = useQuery(['city', slug], () => getCity(slug));
+  /* @todo implement loading spinner animation */
   if (isLoading) return <div>Loaidng...</div>;
   return (
     <MainLayout>
-      <Head key="list-head">
-        <title key="list">
+      <Head>
+        <title>
           {data.Metadata.Titel ? data.Metadata.Titel : 'Houses for sale'}
         </title>
       </Head>
